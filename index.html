@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Example</title>
+</head>
+<body>
+
+  <form action="/submit" method="GET">
+
+    <b><label for="name">Name:</label></b><br>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+
+    <b><label for="email">Email:</label></b><br>
+    <input type="email" id="email" name="email" placeholder="prerna@gmail.com" required><br><br>
+
+    <b><label for="password">Password:</label></b><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <b><label for="phone">Phone Number:</label></b><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <b><label for="age">Age:</label></b><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <b><label for="dob">Date of Birth:</label></b><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <b><label for="classTime">Preferred Class Time:</label></b><br>
+    <input type="time" id="classTime" name="classTime" required><br><br>
+
+    <b>Gender:</b><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="others" name="gender" value="Others">
+    <label for="others">Others</label><br><br>
+
+    <b>Hobbies:</b><br>
+    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" id="music" name="hobbies" value="Music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="coding" name="hobbies" value="Coding">
+    <label for="coding">Coding</label><br><br>
+
+    <b><label for="country">Country:</label></b><br>
+    <select id="country" name="country" required>
+      <option value="">--Select--</option>
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <b><label for="profile">Profile Description:</label></b><br>
+    <textarea id="profile" name="profile" style="width: 190px; height: 100px;"></textarea><br><br>
+
+    <b><label for="interest">Rate your Interest (1-10):</label></b><br>
+    <input type="range" id="interest" name="interest" min="1" max="10"><br><br>
+
+    <b><label for="color">Favorite Color:</label></b><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <b><label for="resume">Upload Resume or Photo:</label></b><br>
+    <input type="file" id="resume" name="resume"><br><br>
+
+    <b><label for="website">Your Website:</label></b><br>
+    <input type="url" id="website" name="website"><br><br>
+
+    <b><label for="subject">Favorite Subject:</label></b><br>
+    <input type="search" id="subject" name="subject"><br><br>
+
+    <input type="checkbox" id="terms" required>
+    <label for="terms">I Agree to Terms</label><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="button" value="Click Me">
+
+  </form>
+
+</body>
+</html>
