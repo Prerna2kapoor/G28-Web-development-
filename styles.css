@@ -1,0 +1,11 @@
+/* External CSS Stylesheet */
+
+ul li {
+    list-style: square;
+}
+
+.footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}

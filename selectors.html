@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors Practice Assignment - Prerna Kapoor</title>
+    <style>
+        /* Universal selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* All elements inside .container */
+        .container > * {
+            padding: 10px;
+        }
+
+        /* Element selector */
+        p {
+            font-style: italic;
+        }
+
+        /* ID selector */
+        #main-heading {
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* Group selector */
+        h1, h2, h3 {
+            border-bottom: 2px solid gray;
+        }
+
+        /* Class selector */
+        .box {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-heading">Main Heading</h1>
+        <p>This is a paragraph inside the container.</p>
+        <a href="https://www.geeksforgeeks.org/" target="_blank">Click Here</a>
+        <span>This is a span element.</span>
+        <div class="box">Another box inside container</div>
+    </div>
+</body>
+</html>
